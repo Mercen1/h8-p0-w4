@@ -15,7 +15,6 @@ function digitPerkalianMinimum(angka) {
         if (faktorLength.length === 1) {
             hasil = faktorLength[0];
         }
-
     }
     if (faktorLength.length > 1) {
         for (k = 0; k < faktorLength.length - 1; k++) {
@@ -37,4 +36,3 @@ console.log(digitPerkalianMinimum(90)); // 3
 console.log(digitPerkalianMinimum(20)); // 2
 console.log(digitPerkalianMinimum(179)); // 4
 console.log(digitPerkalianMinimum(1)); // 2
-console.log(digitPerkalianMinimum(10000))
