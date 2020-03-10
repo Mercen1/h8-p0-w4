@@ -1,7 +1,6 @@
 function angkaPrima(angka) {
     for (i = 2; i < angka; i++) {
         var hasil;
-
         if (angka % i === 0) {
             hasil = false;
             break
@@ -9,6 +8,7 @@ function angkaPrima(angka) {
             hasil = true;
         }
     }
+    
     return hasil
 }
 

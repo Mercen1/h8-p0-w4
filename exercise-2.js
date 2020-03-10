@@ -5,6 +5,7 @@ function fpb(angka1, angka2) {
             fpb = i;
         }
     }
+    
     return fpb;
 }
 

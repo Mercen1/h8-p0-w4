@@ -6,8 +6,8 @@ function cariMedian(arr) {
     else{
         median = (arr[(arr.length/2)-1]+arr[arr.length/2])/2;
     }
+    
     return median;
-
   }
   
   // TEST CASES

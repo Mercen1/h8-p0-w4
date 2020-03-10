@@ -11,6 +11,7 @@ function ubahHuruf(kata) {
             kataNew += 'a';
         }
     }
+    
     return kataNew;
 }
 
