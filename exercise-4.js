@@ -2,7 +2,6 @@ function cariModus(arr) {
     var frequensi = [];
     var sudah = [];
     for (i = 0; i < arr.length; i++) {
-        //var frequensi =[]
         var temp = 1;
         for (j = 0; j < arr.length; j++) {
             if (arr[i] === arr[j] && i !== j && sudah[j] !== true) {
