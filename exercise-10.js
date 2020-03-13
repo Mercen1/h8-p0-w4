@@ -1,6 +1,7 @@
 function changeMe(arr) {
     if (arr.length === 0) {
-        console.log('""');
+        
+        return ""
     }
     var data = {};
     var depan = '';
